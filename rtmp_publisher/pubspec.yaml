@@ -1,0 +1,17 @@
+name: rtmp_publisher
+version: 0.1.0
+
+environment:
+  sdk: ">=3.2.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  apivideo_live_stream: ^1.1.3
+  permission_handler: ^11.1.0
+
+dev_dependencies:
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
