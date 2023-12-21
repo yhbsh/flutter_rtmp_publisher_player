@@ -1,4 +1,7 @@
-- Flutter demo app that shows how to publish live camera feed into any rtmp server (twitch, facebook, custom, etc...)
+# Real time message protocol (RMTP)
+
+
+- This is a flutter demo that shows how to publish live camera feed into any rtmp server (twitch, facebook, custom, etc...)
 
 - to test this demo, you need a running rtmp server, that you will be publishing video/audio stream to it, and then play the stream from the player.
 
