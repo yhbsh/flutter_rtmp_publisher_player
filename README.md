@@ -4,8 +4,10 @@
 
 - The simple-real-time-server has a good implementation of an rtmp server.
 
-```console
+```zsh
 cd simple-real-time-server
+```
+```zsh
 docker run --rm -it -p 1935:1935 ossrs/srs:5
 ```
 
