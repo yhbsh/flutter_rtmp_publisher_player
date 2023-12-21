@@ -5,7 +5,7 @@
 
 - to test this demo, you need a running rtmp server, that you will be publishing video/audio stream to it, and then play the stream from the player.
 
-- The simple-real-time-server has a good implementation of an rtmp server.
+- The simple-real-time-server (SRS) is an implementation of an rtmp server.
 
 ```zsh
 cd simple-real-time-server
