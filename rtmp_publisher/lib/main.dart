@@ -31,7 +31,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  late final String url = 'rtmp://192.168.2.1/live';
+  late final String url = 'rtmp://localhost/live';
   late final String key = 'stream';
   late final ApiVideoLiveStreamController controller = ApiVideoLiveStreamController(
     initialAudioConfig: AudioConfig(),

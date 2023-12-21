@@ -19,7 +19,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  late final String url = 'rtmp://192.168.2.1:1935/live/stream';
+  late final String url = 'rtmp://localhost:1935/live/stream';
   late final VlcPlayerController controller = VlcPlayerController.network(url);
 
   @override
